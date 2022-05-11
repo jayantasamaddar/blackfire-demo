@@ -1,6 +1,6 @@
 # About this Project
 
-I often glance over Frontend and Full Stack Engineer jobs, to plug any holes in my repertoire and to find interesting challenges to solve. I saw there was an opening at platform.sh in the Frontend Engineer position.
+I often glance over Frontend and Full Stack Engineer jobs, to plug any holes in my repertoire and constantly upskill, find interesting challenges to solve. I saw there was an opening at [platform.sh](https://platform.sh) in the Frontend Engineer position.
 
 This is what the skillset demanded according to the job description:
 
@@ -13,7 +13,9 @@ This is what the skillset demanded according to the job description:
 
 > The Observability Team is looking for a Frontend Engineer to contribute to the development of the Blackfire product and, more generally, to the Observability features of the Platform.
 
-That sounded interesting. I took a look at the Blackfire Product Demo and knew there was a problem to be solved. I've been a startup founder and I love solving problems, so I thought, why not I have a go?
+That sounded interesting. I took a look at the Blackfire Product Demo and knew there was a problem to be solved. I've been a startup founder and I love solving problems, so I thought, why not I have a go?!
+
+(Dated: 7th of May, 2022)
 
 ---
 
@@ -109,13 +111,60 @@ Lastly, we will use `Git` to push changes to `GitHub` and once published, we wil
 5. Functionality that relies on APIs need to be communicated with the backend developer who whould supply the API endpoints. In our case, we don't have that. We will simply use either a Firestore database or static data to mimic the real production environment data fetch.
 
 
-### UI Design on Figma
+<details>
+<summary><h3>UI Design</h3></summary>
 
+
+
+</details>
+
+<details>
+<summary><h3>Reusable Components List</h3></summary>
+
+
+
+</details>
+
+<details>
+<summary><h3><code>src</code> Folder Structure</h3></summary>
+
+├── App.test.tsx
+├── App.tsx
+├── components
+│   ├── Card.tsx
+│   ├── Header.tsx
+│   ├── index.ts
+│   ├── Layout.tsx
+│   ├── Navbar.tsx
+│   ├── NavItem.tsx
+│   ├── Sidebar.tsx
+│   ├── WidgetList.tsx
+│   └── Widget.tsx
+├── data
+│   └── widgets.ts
+├── index.css
+├── index.tsx
+├── pages
+│   ├── HealthReport.tsx
+│   ├── Home.tsx
+│   └── index.ts
+├── react-app-env.d.ts
+├── reportWebVitals.ts
+├── setupTests.ts
+└── state
+    ├── hooks
+    │   └── index.ts
+    ├── index.ts
+    └── reducers
+        ├── index.ts
+        └── windowSlice.ts
+
+</details>
 
 ---
 
 # CODE
-The source code for this project can be found - **HERE**
+The source code for this project can be found - **[HERE](https://www.github.com/jayantasamaddar)**
 - The `main` branch has the deployed code.
 - The `feature-testing` branch has the code currently under development.
 

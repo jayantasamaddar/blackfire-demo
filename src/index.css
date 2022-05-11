@@ -1,3 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  .root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@layer base {
+  html,
+  body,
+  :root,
+  div#__next {
+    @apply h-full w-full m-0 p-0;
+  }
+  h1 {
+    @apply text-3xl font-bold text-gray-800;
+  }
+  h2 {
+    @apply text-2xl font-bold text-gray-800;
+  }
+  h3 {
+    @apply text-xl font-bold text-gray-800;
+  }
+  h4 {
+    @apply text-lg font-bold text-gray-800;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
